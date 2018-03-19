@@ -1,0 +1,44 @@
+body{
+	background:black;
+}
+.jumbotron{
+	background:rgb(51,153,255);
+	margin-bottom:0px;
+	margin-top: -30px;     /* We can have negative value of attributes */
+	height: 210px;
+}
+.jumbotron > p{
+	font-size: 20px;
+}
+.navbar{
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.container{
+	width: 40%;                    /* used for providing space between columns */
+}
+.navbar-default .navbar-nav > li > a{  /* The tags inside a class are accessed with help of angular brackets */
+	color:blue;
+	font-weight:800;              /* font-weight property doesn't contain px */
+	font-size: 16px;
+}
+button{
+	height: 150px;
+	width: 150px;	
+	border-radius: 20px;
+	border-color: black;
+	transition: all 0.5s;		/* provides the slow disappearing effect */
+}
+.row{                       /* to separate rows from navbar */
+	padding: 25px;
+}
+#three, #four, #five{
+	margin-top: 15px;           /* provides space between rows */
+}
+#second{
+	margin-top: -50px;
+}
+#tannu{
+	font-weight:400;           
+	font-size: 16px;
+}

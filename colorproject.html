@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">  <!-- IT IS NECESSARY TO LOAD BOOTSTRAP BEFORE CSS -->
+<link rel="stylesheet" type="text/css" href="color.css">      
+<title>Color Game</title>
+</head>
+<body>
+	<div class="jumbotron">
+		<p align="center" style=color:white>THE GREAT</p>
+		<h1 align="center" style=color:white>RGB=(x,y,z)</h1>
+		<p align="center" style=color:white>GUESSING GAME</p>
+	</div>
+	
+	<div class="navbar navbar-default">
+		<div class="container">                            <!-- CREATING NAV-BAR-->
+			<ul class="nav navbar-nav">
+				<li><a href="#">NEW GAME</a></li>          <!-- IT IS NECESSARY TO PUT ANCHOR TAG IN NAV BAR -->
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span id="easy">EASY</span></a></li>
+				<li><a href="#">HARD</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
+				<button id="zero"></button>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<button id="one"></button>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<button id="two"></button>
+			</div>
+		</div>
+		<div class="row" id="second">
+			<div class="col-lg-4 col-md-4">
+				<button id="three"></button>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<button id="four"></button>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<button id="five"></button>
+			</div>
+		</div>
+		
+	</div>
+	
+	<script type="text/javascript" src="color.js"></script>
+</body>
+</html>
+
+<!-- col.style.backgroundColor="rgb("+x+","+y+","+z+")"; use to change color of rgb by values of x,y,z --> 
